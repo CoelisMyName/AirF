@@ -31,11 +31,6 @@ public class FileWriter {
     FileWriter(@NonNull Context context, @NonNull String fileName){
         Cursor cursor = context.getContentResolver().query(MediaStore.Downloads.EXTERNAL_CONTENT_URI,null,null,null);
         ParcelFileDescriptor parcelFileDescriptor;
-        FileOutputStream fileOutputStream =
-                new FileOutputStream(parcelFileDescriptor.getFileDescriptor());
-        context.
-        new File;
-        Intent intent;
 
         this.fileName = fileName;
     }
